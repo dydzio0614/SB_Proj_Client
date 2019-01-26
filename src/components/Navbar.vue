@@ -6,7 +6,6 @@
     <b-navbar-brand :to="{ name: 'Home' }">Home</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item :to="{ name: 'BookList' }">View Books</b-nav-item>
-      <b-nav-item href="#">Add Book</b-nav-item>
       <b-nav-item href="#">Chat</b-nav-item>
     </b-navbar-nav>
   </b-navbar>

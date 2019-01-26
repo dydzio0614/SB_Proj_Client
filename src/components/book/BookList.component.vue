@@ -4,7 +4,7 @@
       <b-col
         md="2"
         offset-md="10">
-        <a href="#">Add book</a>
+        <router-link :to="{ name: 'BookCreate' }">Add book</router-link>
       </b-col>
     </b-row>
     <br>
